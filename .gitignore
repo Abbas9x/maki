@@ -1,0 +1,46 @@
+# ── Secrets — NEVER commit ───────────────────────────────────────────────────
+.env
+.env.local
+*.key
+*.pem
+*credentials*
+*secret*
+
+# ── Virtual environment ──────────────────────────────────────────────────────
+.venv/
+venv/
+env/
+
+# ── Python caches ────────────────────────────────────────────────────────────
+__pycache__/
+*.py[cod]
+*$py.class
+*.so
+.pytest_cache/
+.mypy_cache/
+.ruff_cache/
+
+# ── Large model weights (download separately, see README) ───────────────────
+models/
+*.onnx
+*.gguf
+*.bin
+*.safetensors
+
+# ── Logs & personal/runtime data ─────────────────────────────────────────────
+logs/
+*.log
+*.jsonl
+
+# ── Local tooling / IDE / session ────────────────────────────────────────────
+.claude/
+.idea/
+.vscode/
+*.swp
+.DS_Store
+Thumbs.db
+
+# ── Build / dist ─────────────────────────────────────────────────────────────
+build/
+dist/
+*.egg-info/

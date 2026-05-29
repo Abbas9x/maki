@@ -1,0 +1,22 @@
+pyttsx3>=2.90
+SpeechRecognition>=3.10.0
+requests>=2.31.0
+python-dotenv>=1.0.0
+sounddevice>=0.4.6
+numpy>=1.24.0
+psutil>=5.9.0
+google-genai>=1.0.0
+python-dateutil>=2.8.2
+edge-tts>=6.1.0
+# V7
+customtkinter>=5.2.0      # modern dark UI
+pygetwindow>=0.0.9        # window enumeration helper
+pywin32>=305              # window control + wake/unlock detection + clipboard images
+tzdata>=2024.1            # IANA timezone database for Windows
+# V7.5
+pyautogui>=0.9.54         # screen capture fallback
+pillow>=10.0.0            # ImageGrab + clipboard image handling
+# V9.2 / V10 — local STT + GPU + agentic brain
+faster-whisper>=1.0.0     # local Whisper STT (accurate, offline)
+nvidia-cublas-cu12        # CUDA cuBLAS — required for GPU Whisper inference
+nvidia-cudnn-cu12         # CUDA cuDNN  — required for GPU Whisper inference
